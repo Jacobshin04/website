@@ -286,7 +286,10 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: #00000F  ;
+  background-color: #181825 ; /* Brighter than black but still sleek */
+  background-image: linear-gradient(to bottom, 
+                                     #181825, 
+                                     #0F0F1A); /* Very slight shift */
 }
 
 #header.header-top .social-links, #header.header-top h2 {
